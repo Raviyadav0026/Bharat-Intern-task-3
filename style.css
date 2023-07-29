@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.postimg.cc/yNtM6s6D/netflix.jpg);
+    background-size: 1500px 708px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+nav .img img {
+    width: 17%;
+    margin-top: -20px;
+}
+
+nav .btn {
+    display: flex;
+}
+
+.btn .eng {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+
+
+}
+
+.btn .eng:hover {
+    background-color: transparent;
+
+}
+
+.btn .sign:hover {
+    background-color: transparent;
+    border: 3px solid red;
+
+}
+
+.btn .sign {
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.btn .eng {
+    margin-inline: 22px;
+}
+
+.main {
+    text-align: center;
+
+}
+
+.main h1 {
+    font-size: 60px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.main h3 {
+    font-size: 34px;
+}
+
+.main p {
+    font-size: 27px;
+}
+
+.input input {
+    width: 380px;
+    height: 58px;
+    border: none;
+    font-size: 23px;
+}
+
+.input button {
+    width: 180px;
+    height: 59px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: none;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 190px;
+    padding: 250px;
+    border-top: 8px solid grey;
+    
+
+}
+
+.first h1 {
+    font-size: 45px;
+}
+
+.first p {
+    font-size: 25px;
+
+}
+
+.first img{
+    width: 115%;
+
+
+}
+
+.button h1 {
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+    border-top: 8px solid grey;
+
+}
+
+.button button {
+    width: 750px;
+    height: 80px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    margin-left: 370px;
+    text-align: left;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 8px solid gray;
+    margin-top: 53px;
+}
